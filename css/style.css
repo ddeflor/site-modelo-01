@@ -12,6 +12,7 @@ header {
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
+
 }
 
 nav {
@@ -38,60 +39,44 @@ nav a:hover {
 	
 }
 
-.principal{
-	padding: 50px;
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
 }
-
-.titulo-principal {
-	padding: 20px;
-}
-
-.titulo-centralizado {
+.produtos li {
+	display: inline-block;
 	text-align: center;
-	padding: 20px;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.25%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 5px dotted #FFFFFF;
+	border-radius: 10px;
 }
 
-p {
-	text-align: center;
-	
+.produtos li:hover {
+	border-color:#06d4fb;
 }
 
-#missao {
-	font-size: 20px
+.produtos li:hover h2 {
+	font-size: 34px;
 }
 
-em strong {
-	color: blue;
-}
-
-.titulo-centralizado {
-	font-size: 22px;
+.produtos h2 {
+	font-size: 30px;
 	font-weight: bold;
 
 }
 
-.itens {
-	font-style: italic;
+.descricao {
+	font-size: 22px;
+	margin-top: 10px;
 }
 
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
-}
-
-ul .novidades{
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
-}
-
-.imagembeneficios {
-	width: 50%;
-}
-
-div .news {
-	display: inline-block;
+.imagem {
+	border-radius: 10px;
 }
 
 footer {
@@ -104,3 +89,64 @@ footer {
 	font-size: 13px;
 
 }
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size:20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 40%;
+	padding: 15px 0;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: grey;
+	color: white;
+	transform: scale(1.2);
+
+}
+
+table {
+	margin: 20px 0 40px;
+
+}
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
